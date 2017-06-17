@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	"github.com/flosch/pongo2"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed/context"
 )
 
 type (

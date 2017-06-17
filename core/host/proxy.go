@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/kataras/iris/core/nettools"
+	"github.com/denniselite/iris-fixed/core/nettools"
 )
 
 func singleJoiningSlash(a, b string) string {

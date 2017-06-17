@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/router/macro"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/core/errors"
+	"github.com/denniselite/iris-fixed/core/router/macro"
 )
 
 const (
@@ -188,7 +188,7 @@ func (rb *APIBuilder) Party(relativePath string, handlers ...context.Handler) Pa
 // Macros returns the macro map which is responsible
 // to register custom macro functions for all routes.
 //
-// Learn more at:  https://github.com/kataras/iris/tree/master/_examples/beginner/routing/dynamic-path
+// Learn more at:  https://github.com/denniselite/iris-fixed/tree/master/_examples/beginner/routing/dynamic-path
 func (rb *APIBuilder) Macros() *macro.Map {
 	return rb.macros
 }
@@ -430,7 +430,7 @@ func (rb *APIBuilder) StaticContent(reqPath string, cType string, content []byte
 //
 // Returns the GET *Route.
 //
-// Example: https://github.com/kataras/iris/tree/master/_examples/intermediate/serve-embedded-files
+// Example: https://github.com/denniselite/iris-fixed/tree/master/_examples/intermediate/serve-embedded-files
 func (rb *APIBuilder) StaticEmbedded(requestPath string, vdir string, assetFn func(name string) ([]byte, error), namesFn func() []string) (*Route, error) {
 	paramName := "path"
 
@@ -470,7 +470,7 @@ func (rb *APIBuilder) StaticEmbedded(requestPath string, vdir string, assetFn fu
 		reqPath := ctx.Params().Get(paramName)
 		for _, path := range names {
 			// in order to map "/" as "/index.html"
-			// as requested here: https://github.com/kataras/iris/issues/633#issuecomment-281691851
+			// as requested here: https://github.com/denniselite/iris-fixed/issues/633#issuecomment-281691851
 			if path == "/index.html" {
 				if reqPath[len(reqPath)-1] == '/' {
 					reqPath = "/index.html"

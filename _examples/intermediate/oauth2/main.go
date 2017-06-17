@@ -24,10 +24,10 @@ import (
 	"os"
 	"sort"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/view"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/sessions"
+	"github.com/denniselite/iris-fixed/view"
 
 	"github.com/gorilla/securecookie" // optionally, used for session's encoder/decoder
 

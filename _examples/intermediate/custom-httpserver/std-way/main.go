@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
 )
 
 func main() {

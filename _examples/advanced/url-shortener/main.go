@@ -14,9 +14,9 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/view"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/view"
 )
 
 func main() {

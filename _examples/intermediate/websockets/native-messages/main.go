@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
 
-	"github.com/kataras/iris/view"
-	"github.com/kataras/iris/websocket"
+	"github.com/denniselite/iris-fixed/view"
+	"github.com/denniselite/iris-fixed/websocket"
 )
 
 /* Native messages no need to import the iris-ws.js to the ./templates.client.html

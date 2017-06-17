@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/cache/cfg"
+	"github.com/denniselite/iris-fixed/cache/cfg"
 )
 
 // URIBuilder is the requested url builder

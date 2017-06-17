@@ -10,10 +10,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kataras/iris/cache/cfg"
-	"github.com/kataras/iris/cache/client/rule"
-	"github.com/kataras/iris/cache/uri"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed/cache/cfg"
+	"github.com/denniselite/iris-fixed/cache/client/rule"
+	"github.com/denniselite/iris-fixed/cache/uri"
+	"github.com/denniselite/iris-fixed/context"
 )
 
 // ClientHandler is the client-side handler

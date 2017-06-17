@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/iris-contrib/httpexpect"
-	"github.com/kataras/iris"
+	"github.com/denniselite/iris-fixed"
 )
 
 type (
@@ -74,7 +74,7 @@ func DefaultConfiguration() *Configuration {
 // e := httptest.New(iris.Default, t)
 // e.GET("/mypath").Expect().Status(iris.StatusOK).Body().Equal("my body")
 //
-// You can find example on the https://github.com/kataras/iris/glob/master/context_test.go
+// You can find example on the https://github.com/denniselite/iris-fixed/glob/master/context_test.go
 func New(app *iris.Application, t *testing.T, setters ...OptionSetter) *httpexpect.Expect {
 	conf := DefaultConfiguration()
 	for _, setter := range setters {

@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/xml"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/view"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/view"
 )
 
 // ExampleXML just a test struct to view represents xml content-type

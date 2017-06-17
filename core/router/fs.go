@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/core/errors"
 )
 
 // Prioritize is a middleware which executes a route against this path

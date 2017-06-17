@@ -10,9 +10,9 @@ Example code:
 		 import (
 		 	"time"
 
-		 	"github.com/kataras/iris"
-		 	"github.com/kataras/iris/cache"
-		 	"github.com/kataras/iris/context"
+		 	"github.com/denniselite/iris-fixed"
+		 	"github.com/denniselite/iris-fixed/cache"
+		 	"github.com/denniselite/iris-fixed/context"
 		 )
 
 		 func main(){
@@ -32,8 +32,8 @@ package cache
 import (
 	"time"
 
-	"github.com/kataras/iris/cache/client"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed/cache/client"
+	"github.com/denniselite/iris-fixed/context"
 )
 
 // Cache accepts two parameters

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/core/nettools"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/core/nettools"
 )
 
 func main() {

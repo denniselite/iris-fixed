@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/host"
-	"github.com/kataras/iris/httptest"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/core/host"
+	"github.com/denniselite/iris-fixed/httptest"
 )
 
 func TestProxy(t *testing.T) {

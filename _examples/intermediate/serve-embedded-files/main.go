@@ -2,11 +2,11 @@
 package main
 
 // First of all, execute: $ go get https://github.com/jteeuwen/go-bindata
-// Secondly, execute the command: cd $GOPATH/src/github.com/kataras/iris/_examples/intermediate/serve-embedded-files && go-bindata ./assets/...
+// Secondly, execute the command: cd $GOPATH/src/github.com/denniselite/iris-fixed/_examples/intermediate/serve-embedded-files && go-bindata ./assets/...
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
 )
 
 func main() {

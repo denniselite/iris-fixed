@@ -15,8 +15,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/nettools"
+	"github.com/denniselite/iris-fixed/core/errors"
+	"github.com/denniselite/iris-fixed/core/nettools"
 	"golang.org/x/crypto/acme/autocert"
 )
 

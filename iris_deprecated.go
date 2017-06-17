@@ -11,11 +11,11 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/kataras/iris/cache"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/handlerconv"
-	"github.com/kataras/iris/core/host"
-	"github.com/kataras/iris/core/nettools"
+	"github.com/denniselite/iris-fixed/cache"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/core/handlerconv"
+	"github.com/denniselite/iris-fixed/core/host"
+	"github.com/denniselite/iris-fixed/core/nettools"
 )
 
 // ToHandler converts native http.Handler & http.HandlerFunc to context.Handler.
@@ -37,7 +37,7 @@ func ToHandler(handler interface{}) context.Handler {
 // }, time.Duration(10*time.Second))) // duration of expiration
 // if <=time.Second then it tries to find it though request header's "cache-control" maxage value.
 //
-// Deprecated. Use "github.com/kataras/iris/cache" sub-package instead.
+// Deprecated. Use "github.com/denniselite/iris-fixed/cache" sub-package instead.
 var Cache = cache.CacheHandler
 
 // CheckErr is the old `Must`. It panics on errors as expected with

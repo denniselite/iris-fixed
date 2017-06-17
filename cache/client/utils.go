@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kataras/iris/cache/entry"
+	"github.com/denniselite/iris-fixed/cache/entry"
 )
 
 // GetMaxAge parses the "Cache-Control" header

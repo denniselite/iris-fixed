@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed/context"
 )
 
 type requestLoggerMiddleware struct {

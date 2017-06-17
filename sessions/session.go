@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/memstore"
+	"github.com/denniselite/iris-fixed/core/errors"
+	"github.com/denniselite/iris-fixed/core/memstore"
 )
 
 type (

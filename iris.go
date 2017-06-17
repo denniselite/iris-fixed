@@ -15,19 +15,19 @@ import (
 	"time"
 
 	// context for the handlers
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed/context"
 	// core packages, needed to build the application
-	"github.com/kataras/iris/core/errors"
-	"github.com/kataras/iris/core/host"
-	"github.com/kataras/iris/core/logger"
-	"github.com/kataras/iris/core/nettools"
-	"github.com/kataras/iris/core/router"
+	"github.com/denniselite/iris-fixed/core/errors"
+	"github.com/denniselite/iris-fixed/core/host"
+	"github.com/denniselite/iris-fixed/core/logger"
+	"github.com/denniselite/iris-fixed/core/nettools"
+	"github.com/denniselite/iris-fixed/core/router"
 	// sessions and view
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/view"
+	"github.com/denniselite/iris-fixed/sessions"
+	"github.com/denniselite/iris-fixed/view"
 	// middleware used in Default method
-	requestLogger "github.com/kataras/iris/middleware/logger"
-	"github.com/kataras/iris/middleware/recover"
+	requestLogger "github.com/denniselite/iris-fixed/middleware/logger"
+	"github.com/denniselite/iris-fixed/middleware/recover"
 )
 
 const (
@@ -40,7 +40,7 @@ const (
 
 	// Version is the current version number of the Iris Web framework.
 	//
-	// Look https://github.com/kataras/iris#where-can-i-find-older-versions for older versions.
+	// Look https://github.com/denniselite/iris-fixed#where-can-i-find-older-versions for older versions.
 	Version = "7.1.1"
 )
 

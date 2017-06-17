@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/kataras/iris/typescript/npm"
+	"github.com/denniselite/iris-fixed/typescript/npm"
 )
 
 var (

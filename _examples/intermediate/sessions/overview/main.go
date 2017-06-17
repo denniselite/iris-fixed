@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
 
-	"github.com/kataras/iris/sessions"
+	"github.com/denniselite/iris-fixed/sessions"
 )
 
 var (
@@ -43,7 +43,7 @@ func logout(ctx context.Context) {
 func main() {
 	app := iris.New()
 
-	// Look https://github.com/kataras/iris/tree/master/sessions/_examples for more features,
+	// Look https://github.com/denniselite/iris-fixed/tree/master/sessions/_examples for more features,
 	// i.e encode/decode and lifetime.
 	sess := sessions.New(sessions.Config{Cookie: key})
 	app.AttachSessionManager(sess)

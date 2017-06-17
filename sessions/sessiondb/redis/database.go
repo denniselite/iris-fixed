@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/kataras/iris/sessions/sessiondb/redis/service"
+	"github.com/denniselite/iris-fixed/sessions/sessiondb/redis/service"
 )
 
 // Database the redis database for q sessions

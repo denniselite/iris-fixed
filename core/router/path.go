@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/esemplastic/unis"
-	"github.com/kataras/iris/core/nettools"
+	"github.com/denniselite/iris-fixed/core/nettools"
 )
 
 const (

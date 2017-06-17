@@ -8,10 +8,10 @@ package main
 import (
 	"reflect"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/view"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
+	"github.com/denniselite/iris-fixed/sessions"
+	"github.com/denniselite/iris-fixed/view"
 )
 
 // Create your own custom Context, put any fields you wanna need.

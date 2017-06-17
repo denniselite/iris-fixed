@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/denniselite/iris-fixed"
+	"github.com/denniselite/iris-fixed/context"
 
-	"github.com/kataras/iris/middleware/recover"
+	"github.com/denniselite/iris-fixed/middleware/recover"
 )
 
 func main() {
